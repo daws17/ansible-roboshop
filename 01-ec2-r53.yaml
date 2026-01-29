@@ -7,7 +7,7 @@
    zone_id: "Z001445138PJ8LEVGMQY"
    domain_name: "devops-practice.space"
    instances:
-    - mongodb
+   - mongodb
   task:
    - name: create ec2 r53
      amazon.aws.ec2-instance:
