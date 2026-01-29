@@ -2,9 +2,9 @@
   host: local
   connection: local
   vars:
-   ami_id: 
-   sg_id: 
-   zone_id:
+   ami_id: ami-0220d79f3f480ecf5
+   sg_id: sg-00434aea2a5a1cc91
+   zone_id: "Z001445138PJ8LEVGMQY"
    domain_name: "devops-practice.space"
    instances:
     - mongodb
