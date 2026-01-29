@@ -8,7 +8,7 @@
    domain_name: "devops-practice.space"
    instances:
     - mongodb
-  tasks:
+  task:
    - name: create ec2 instance
      amazon.aws.ec2-instance:
       name: "{{ item }}"
