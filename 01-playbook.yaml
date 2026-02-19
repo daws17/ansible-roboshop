@@ -1,22 +1,22 @@
-# - name: ping the server
-#   hosts: frontend
+- name: ping the server
+  hosts: frontend
 
-#   tasks:
-#   - name: ping
-#     ansible.builtin.ping:
+  tasks:
+  - name: ping
+    ansible.builtin.ping:
 
-[local]
-localhost
-54.87.144.252
+# [local]
+# localhost
+# 54.87.144.252
 
-[frontend]
-54.87.144.252
+# [frontend]
+# 54.87.144.252
 
-[cart]
-172.31.77.200
+# [cart]
+# 172.31.77.200
 
-[catalogue]
-172.31.77.200
+# [catalogue]
+# 172.31.77.200
 
-[local:vars]
-NAME=from inventory
+# [local:vars]
+# NAME=from inventory
