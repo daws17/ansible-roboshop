@@ -13,10 +13,10 @@ localhost
 54.87.144.252
 
 [cart]
-172.31.77.200
+54.87.144.252
 
 [catalogue]
-172.31.77.200
+54.87.144.252
 
 [local:vars]
 NAME=from inventory
