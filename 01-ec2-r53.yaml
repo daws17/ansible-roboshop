@@ -1,5 +1,5 @@
 - name: create ec2 r53
-  hosts: 172.31.77.200
+  hosts: 54.87.144.252
   connection: local
   vars:
    ami_id: ami-0220d79f3f480ecf5
